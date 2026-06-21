@@ -103,20 +103,14 @@ There's a person at the end of every pipeline. I take my work seriously when it 
 ---
 
 ### 🌱 Outside the Code
-```mermaid
-graph TD
-    A(("👩‍💻 Mentoring Women in STEM<br/>(USC SWE · GRIDS)"))
-    B(("🎓 Teaching Engineering Fundamentals<br/> (TA- USC DSCI 250 · Robogals)"))
-    C(("✍️ Writing poems and essays<br/>(Personal Social Media)"))
-    A --> D((❤️))
-    B --> D
-    C --> D
-```
-
+> **👩‍💻 Women in STEM:** Mentors aspiring engineers toward careers in STEM (USC SWE, USC GRIDS)  
+> **🎓 Teaching:** Helps students build real intuition for data and engineering fundamentals (TA, DSCI 250- USC; USC Robogals)  
+> **✍️ Writing:** Writes poems and essays on nature and human emotions (Personal Social Media)
+<br>
 
 <div align="center">
 
----
+<br>
 
 If your work lives somewhere between messy data, useful AI and real-world impact, I’d love to connect!
 
