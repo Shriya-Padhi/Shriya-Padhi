@@ -110,10 +110,14 @@ There's a person at the end of every pipeline. I take my work seriously when it 
 
 <div align="center">
 
-<br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriya-padhi/)
 
 If your work lives somewhere between messy data, useful AI and real-world impact, I’d love to connect!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriya-padhi/)
+---
 
 </div>
+
+
+
+
