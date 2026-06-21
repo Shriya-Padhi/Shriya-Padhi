@@ -4,8 +4,6 @@
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6A4C93&center=true&vCenter=true&width=600&lines=AI+Developer+%C2%B7+LLM+%C3%97+RAG+%C2%B7+Computer+Vision)
 
-There's a person at the end of every pipeline. I take my work seriously when it comes to delivering high-quality products.
-
 </div>
 
 <br>
