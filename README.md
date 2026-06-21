@@ -103,7 +103,7 @@
 ### 🌱 Outside the Code
 > **👩‍💻 Women in STEM:** Mentors aspiring engineers toward careers in STEM (USC SWE, USC GRIDS)  
 > **🎓 Teaching:** Helps students build real intuition for data and engineering fundamentals (TA, DSCI 250- USC; USC Robogals)  
-> **✍️ Writing:** Writes poems and essays on nature and human emotions (Personal Social Media)
+> **✍️ Writing:** Writes poems and essays (Personal Social Media)
 <br>
 
 <div align="center">
