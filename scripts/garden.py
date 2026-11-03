@@ -523,7 +523,7 @@ def readme(cfg, stats):
 </p>
 
 <p align="center">
-  <img src="assets/hanko.svg" width="100%" alt="Hanko seals with my public repository count, the year I started building, and my contributions in the past year.">
+  <a href="https://github.com/{u}?tab=repositories"><img src="assets/hanko.svg" width="100%" alt="Hanko seals with my public repository count, the year I started building and my contributions in the past year. Click to see my repositories."></a>
 </p>
 
 <p align="center">{cfg['outside_the_code']}</p>
