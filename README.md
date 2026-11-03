@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Shriya-Padhi/Shriya-Padhi/issues/new?title=omikuji%3A%20draw%20a%20fortune&body=Just%20press%20%2A%2ACreate%2A%2A%20below.%20Your%20fortune%20arrives%20as%20a%20reply%20in%20a%20few%20seconds%2C%20and%20it%20will%20hang%20on%20the%20branch%20on%20my%20profile%20until%20the%20next%20visitor%20draws%20one."><img src="assets/btn-fortune.svg" height="46" alt="Draw a fortune"></a>
+  <a href="https://github.com/Shriya-Padhi/Shriya-Padhi/issues/new?title=omikuji%3A%20draw%20a%20fortune&body=Just%20press%20%2A%2ACreate%2A%2A%20below.%20Your%20fortune%20arrives%20as%20a%20reply%20within%20a%20minute.%20It%20can%20take%20up%20to%205%20minutes%20to%20appear%20on%20my%20profile%20page%2C%20where%20it%20will%20hang%20on%20the%20branch%20until%20the%20next%20visitor%20draws%20one."><img src="assets/btn-fortune.svg" height="46" alt="Draw a fortune"></a>
 </p>
 
 <br>
