@@ -492,7 +492,7 @@ def readme(cfg):
         f"https://github.com/{u}/{u}/issues/new?"
         + urllib.parse.urlencode(
             {"title": "omikuji: draw a fortune",
-             "body": "Just press **Create** below. Your fortune arrives as a reply in a few seconds, and it will hang on the branch on my profile until the next visitor draws one."},
+             "body": "Just press **Create** below. Your fortune arrives as a reply within a minute. It can take up to 5 minutes to appear on my profile page, where it will hang on the branch until the next visitor draws one."},
             quote_via=urllib.parse.quote,
         )
     )
