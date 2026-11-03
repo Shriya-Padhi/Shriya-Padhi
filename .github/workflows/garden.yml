@@ -1,0 +1,37 @@
+name: garden
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["profile.json", "scripts/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: garden
+  cancel-in-progress: false
+
+jobs:
+  tend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh the garden
+        env:
+          GITHUB_TOKEN: ${{ secrets.GARDEN_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/garden.py build
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md state
+          if git diff --cached --quiet; then echo "nothing new in the garden"; exit 0; fi
+          git commit -m "🌸 tend the garden"
+          git pull --rebase
+          git push
