@@ -485,7 +485,7 @@ def btn_linkedin():
 
 
 # ---------------------------------------------------------------- README
-def readme(cfg):
+def readme(cfg, stats):
     u = cfg["username"]
     issue = (
         f"https://github.com/{u}/{u}/issues/new?"
@@ -519,7 +519,7 @@ def readme(cfg):
 {pic("vine-currently", "currently")}
 
 <p align="center">
-  <img src="assets/koi.svg" width="100%" alt="A koi swims across a pond carrying the name of the repository I pushed to most recently.">
+  <a href="{stats.get('current_repo_url', f'https://github.com/{u}?tab=repositories')}"><img src="assets/koi.svg" width="100%" alt="A koi swims across a pond carrying the name of the repository I pushed to most recently. Click to open it."></a>
 </p>
 
 <p align="center">
@@ -581,7 +581,7 @@ def refresh_stats(cfg, stats):
         for ev in events:
             name = ev.get("repo", {}).get("name", "")
             if ev.get("type") == "PushEvent" and name.lower() != f"{u}/{u}".lower():
-                stats["current_repo"] = name.split("/")[-1]
+                stats["current_repo_url"] = f"https://github.com/{name}"
                 break
     except Exception as e:
         print(f"note: kept cached current repo ({e})", file=sys.stderr)
@@ -627,7 +627,7 @@ def build(offline=False, force_time=None):
     write("omikuji.svg", omikuji(cfg, fortune))
     write("btn-fortune.svg", btn_fortune())
     write("btn-linkedin.svg", btn_linkedin())
-    (ROOT / "README.md").write_text(readme(cfg), encoding="utf-8")
+    (ROOT / "README.md").write_text(readme(cfg, stats), encoding="utf-8")
     print(f"built: {'day' if day else 'night'} header, deer {'awake' if awake else 'asleep'}, "
           f"koi on {stats.get('current_repo')}")
 
