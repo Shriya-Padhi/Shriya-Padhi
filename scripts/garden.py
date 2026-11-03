@@ -180,7 +180,7 @@ def header(cfg, is_day):
     )
     cw = mono_width(chip, 11.5) + 26
     meta = "".join(
-        f'<text x="50" y="{232 + i * 22}" font-family="{MONO}" font-size="13" fill="{meta_c}">{x(m)}</text>'
+        f'<text x="50" y="{210 + i * 22}" font-family="{MONO}" font-size="13" fill="{meta_c}">{x(m)}</text>'
         for i, m in enumerate(cfg["meta"][:2])
     )
     body = (
@@ -188,8 +188,7 @@ def header(cfg, is_day):
         f'<g clip-path="url(#card)">{scene}{petals}</g>'
         f'<rect x="48" y="78" width="{cw:.0f}" height="26" rx="13" fill="{chip_bg}"/>'
         f'<text x="61" y="95.5" font-family="{MONO}" font-size="11.5" fill="{chip_fg}">{x(chip)}</text>'
-        f'<text x="46" y="170" font-family="{SERIF}" font-weight="600" font-size="56" letter-spacing="-0.5" fill="{name_c}">{x(cfg["name"])}</text>'
-        f'<text x="48" y="206" font-family="{SERIF}" font-style="italic" font-size="22" fill="{tag_c}">{x(cfg["tagline"])}</text>'
+        f'<text x="46" y="170" font-family="{SERIF}" font-style="italic" font-size="38" fill="{tag_c}">{x(cfg["tagline"])}</text>'
         + meta
     )
     css = (
