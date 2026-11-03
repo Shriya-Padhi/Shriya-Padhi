@@ -1,0 +1,43 @@
+{
+  "ranks": [
+    {"kanji": "大吉", "name": "great blessing", "weight": 3},
+    {"kanji": "吉", "name": "blessing", "weight": 4},
+    {"kanji": "中吉", "name": "middle blessing", "weight": 3},
+    {"kanji": "小吉", "name": "small blessing", "weight": 3},
+    {"kanji": "末吉", "name": "future blessing", "weight": 2}
+  ],
+  "fortunes": {
+    "大吉": [
+      "your tests pass on the first try",
+      "the bug was a typo, and you find it in a minute",
+      "your pull request is approved without a single comment",
+      "the flaky test is finally, truly fixed",
+      "today the docs say exactly what the code does"
+    ],
+    "吉": [
+      "a rubber duck hears your problem and solves it",
+      "the dependency upgrade goes quietly",
+      "your model converges before the tea cools",
+      "someone stars a repo you forgot you made",
+      "a clean diff, a calm mind"
+    ],
+    "中吉": [
+      "the merge conflict is small and polite",
+      "your notebook runs top to bottom, in order",
+      "you will name a variable well today",
+      "the cache was the problem, and now it is not"
+    ],
+    "小吉": [
+      "it works on your machine, and soon on theirs",
+      "the error message is cryptic but honest",
+      "one more print statement will reveal everything",
+      "a small refactor leaves the code a little kinder"
+    ],
+    "末吉": [
+      "the refactor you postpone will be easier next week",
+      "today's TODO becomes tomorrow's feature",
+      "rest now; the build will still be there",
+      "the answer arrives after a walk under the trees"
+    ]
+  }
+}

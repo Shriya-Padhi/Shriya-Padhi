@@ -1,0 +1,18 @@
+{
+  "username": "Shriya-Padhi",
+  "name": "Shriya Padhi",
+  "tagline": "AI developer, finding stories in data",
+  "meta": ["currently · AI for energy at ConnectM", "MS CS · USC '24"],
+
+  "timezone": "America/New_York",
+  "city": "Washington DC",
+  "day_starts": 6,
+  "night_starts": 19,
+
+  "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "Kubeflow", "SQL", "Django", "Unity", "n8n"],
+  "seasonal": "",
+
+  "outside_the_code": "<b>Outside the code:</b> mentoring women in STEM (USC SWE, USC GRIDS) · TA for DSCI 250 and USC Robogals · writing essays and poems",
+
+  "linkedin": "https://www.linkedin.com/in/shriya-padhi/"
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="60" viewBox="0 0 186 60" role="img" aria-labelledby="t">
+<title id="t">Say hi on LinkedIn</title>
+<style>@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><g id="bl"><ellipse cx="0" cy="-5" rx="3.8" ry="5.2" fill="#f2b5c8" transform="rotate(0)"/><ellipse cx="0" cy="-5" rx="3.8" ry="5.2" fill="#f2b5c8" transform="rotate(72)"/><ellipse cx="0" cy="-5" rx="3.8" ry="5.2" fill="#f2b5c8" transform="rotate(144)"/><ellipse cx="0" cy="-5" rx="3.8" ry="5.2" fill="#f2b5c8" transform="rotate(216)"/><ellipse cx="0" cy="-5" rx="3.8" ry="5.2" fill="#f2b5c8" transform="rotate(288)"/><circle r="2" fill="#b4486c"/></g></defs>
+<rect x="88" y="44" width="10" height="16" fill="#6e4b37"/><rect width="186" height="46" rx="6" fill="#8a6048"/><rect y="42" width="186" height="4" rx="2" fill="#6e4b37"/><text x="93" y="28.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-weight="600" font-size="14" letter-spacing=".4" fill="#f5ede6">say hi on LinkedIn</text>
+</svg>
