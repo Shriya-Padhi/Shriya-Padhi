@@ -657,8 +657,10 @@ def draw_omikuji():
     comment = (
         f"## {rank['kanji']} · {rank['name']}\n\n"
         f"> *{text}*\n\n"
-        f"Your fortune is now tied to the branch on [my profile](https://github.com/{cfg['username']}) "
-        "until the next visitor draws one, and the deer is awake to bow to you. Thanks for wandering by 🌸"
+        f"Your fortune is now tied to the branch on [my profile](https://github.com/{cfg['username']}), "
+        "where it stays until the next visitor draws one, and the deer is awake to bow to you. "
+        "It can take up to 5 minutes to show up there, since GitHub refreshes profile pictures every few minutes. "
+        "Thanks for wandering by 🌸"
     )
     (ROOT / "state" / "comment.md").write_text(comment, encoding="utf-8")
     if out:
