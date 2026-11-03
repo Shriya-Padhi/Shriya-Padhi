@@ -9,10 +9,10 @@
   "day_starts": 9,
   "night_starts": 17,
 
-  "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "RAG", "LLM evals", "OpenSearch", "SQL", "scikit-learn"],
+  "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "RAG", "LLM evals", "OpenSearch", "SQL", "Scikit-learn"],
   "seasonal": "",
 
-  "outside_the_code": "<b>outside the code:</b> stem mentor (usc swe, usc grids, usc robogals) · teaching assistant for dsci250 at USC · writing essays and poems",
+  "outside_the_code": "<b>outside the code:</b> stem mentor (usc swe, usc grids, usc robogals) · teaching assistant for dsci250 at usc · writing essays and poems",
 
   "linkedin": "https://www.linkedin.com/in/shriya-padhi/"
 }
