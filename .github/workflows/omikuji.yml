@@ -1,0 +1,43 @@
+name: omikuji
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: garden
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    if: startsWith(github.event.issue.title, 'omikuji')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Draw a fortune
+        id: draw
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python3 scripts/garden.py omikuji
+
+      - name: Reply, close, and hang the fortune
+        if: steps.draw.outputs.drawn == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file state/comment.md
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md state/fortune.json
+          git commit -m "🌸 a new fortune hangs on the branch"
+          git pull --rebase
+          git push
