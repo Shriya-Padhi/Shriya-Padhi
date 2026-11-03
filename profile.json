@@ -1,18 +1,18 @@
 {
   "username": "Shriya-Padhi",
   "name": "Shriya Padhi",
-  "tagline": "AI developer, finding stories in data",
-  "meta": ["currently · AI for energy at ConnectM", "MS CS · USC '24"],
+  "tagline": "coaxing meaning out of messy data",
+  "meta": ["building AI for energy at ConnectM", "MS Computer Science · University of Southern California '24"],
 
   "timezone": "America/New_York",
   "city": "Washington DC",
-  "day_starts": 6,
-  "night_starts": 19,
+  "day_starts": 9,
+  "night_starts": 17,
 
-  "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "Kubeflow", "SQL", "Django", "Unity", "n8n"],
+  "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "RAG", "LLM evals", "OpenSearch", "SQL", "scikit-learn"],
   "seasonal": "",
 
-  "outside_the_code": "<b>Outside the code:</b> mentoring women in STEM (USC SWE, USC GRIDS) · TA for DSCI 250 and USC Robogals · writing essays and poems",
+  "outside_the_code": "<b>outside the code:</b> stem mentor (usc swe, usc grids, usc robogals) · teaching assistant for dsci250 at USC · writing essays and poems",
 
   "linkedin": "https://www.linkedin.com/in/shriya-padhi/"
 }
