@@ -6,8 +6,8 @@
 
   "timezone": "America/New_York",
   "city": "Washington DC",
-  "day_starts": 9,
-  "night_starts": 17,
+  "day_starts": 6,
+  "night_starts": 19,
 
   "tools": ["Python", "PyTorch", "LangChain", "Claude", "Bedrock", "SageMaker", "Docker", "RAG", "LLM evals", "OpenSearch", "SQL", "Scikit-learn"],
   "seasonal": "",
