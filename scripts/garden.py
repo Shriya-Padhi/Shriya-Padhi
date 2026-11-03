@@ -581,6 +581,7 @@ def refresh_stats(cfg, stats):
         for ev in events:
             name = ev.get("repo", {}).get("name", "")
             if ev.get("type") == "PushEvent" and name.lower() != f"{u}/{u}".lower():
+                stats["current_repo"] = name.split("/")[-1]
                 stats["current_repo_url"] = f"https://github.com/{name}"
                 break
     except Exception as e:
