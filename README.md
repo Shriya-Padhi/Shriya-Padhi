@@ -19,7 +19,7 @@
 </picture>
 
 <p align="center">
-  <img src="assets/koi.svg" width="100%" alt="A koi swims across a pond carrying the name of the repository I pushed to most recently.">
+  <a href="https://github.com/AI-Energy-Projects/incentive-iq"><img src="assets/koi.svg" width="100%" alt="A koi swims across a pond carrying the name of the repository I pushed to most recently. Click to open it."></a>
 </p>
 
 <p align="center">
