@@ -355,11 +355,11 @@ def hanko(stats):
 # ---------------------------------------------------------------- omikuji
 def omikuji(cfg, fortune):
     if fortune:
-        kanji, rank, text, who = fortune["kanji"], fortune["name"], fortune["text"], f"drawn by @{fortune['user']}"
+        kanji, rank, text, who = fortune["kanji"], fortune["name"], fortune["text"], "" 
     else:
-        kanji, rank, text, who = "吉", "blessing", "the first fortune is waiting for you", "no one has drawn yet"
+        kanji, rank, text, who = "吉", "blessing", "the first fortune is waiting for you", ""
     lines = textwrap.wrap(text, 31)[:2]
-    card_h = 150 + 27 * len(lines)
+    card_h = 128 + 27 * len(lines)
     slips = "".join(
         f'<g class="fl" style="animation-delay:{d}s"><line x1="{a}" y1="{b}" x2="{a}" y2="{b + 12}" stroke="#9ba6b2"/>'
         f'<rect x="{a - 8}" y="{b + 12}" width="16" height="{h}" rx="2" fill="#f5ede6" stroke="#d8c7b4"/></g>'
@@ -401,7 +401,7 @@ def omikuji(cfg, fortune):
         ".fl{transform-box:fill-box;transform-origin:50% 0;animation:fl 5s ease-in-out infinite}"
         "@keyframes fl{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}"
     )
-    title = f"Omikuji: the latest fortune is {rank} ({kanji}): {text}. {who}."
+    title = f"Omikuji: the latest fortune is {rank} ({kanji}): {text}."
     return svg(840, 330, body, title=title, css=css, fonts=("semibold", "italic", "kanji"))
 
 
